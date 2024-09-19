@@ -1,6 +1,5 @@
 # 1. The Calculator App
 
-# seems like you could just use the shell for this, but whatever
 def addition():
     first_number = float(input("What is the first number you'd like to add? "))
     second_number = float(input("What is the second number you'd like to add? "))
@@ -10,6 +9,7 @@ def addition():
 def subtraction():
     first_number = float(input("What is the first number? "))
     second_number = float(input("And what would you like to subtract from that? "))
+    # Here I learned inputs can't have commas joining strings and variables
     result = first_number - second_number
     print("The answer is", result)
 
